@@ -1,0 +1,223 @@
+.body {
+    background: linear-gradient(rgba(77, 40, 40, 0.514), rgba(117, 61, 61, 0.411)), url("../img/tapis.jpg");
+    background-position: center;
+    background-size: cover;
+}
+/*MODULOS*/
+.modulo2{
+    margin-top: 5.2rem;
+    float: left;
+    text-align: justify;
+}
+.modulo3{
+    background-color: rgb(240, 240, 240) ;
+    
+}
+/*TITULOS*/
+.t-uno{
+    color: rgba(209, 23, 23, 0.925);
+    font-weight: bold;
+    font-size: 45px;
+}
+.t-dos{
+    color: rgb(87, 87, 87);
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px rgb(121, 120, 120);
+}
+.t-tres{
+    margin-top: 1rem;
+    font-size: 55px;
+    font-weight: bold;
+}
+.t-cuatro{
+    margin-top: 1rem;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.t-cinco{
+    color: rgba(209, 23, 23, 0.925);
+    font-weight: bold;
+    font-size: 55px;
+}
+.t-seis{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 5%;
+}
+/*PARRAFOS*/
+.uno{
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-weight: bold;
+    font-size: 18px;
+}
+.dos{
+    
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-size: 18px;
+}
+.tres{
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-weight: bold;
+    word-spacing: 2px;
+}
+.cuatro{
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-size: 50px;
+    font-weight: bold;
+}
+.cinco{
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-size: 22px;
+    font-weight: bold;
+}
+.cinco-2{
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-size: 18px;
+    font-weight: bold;
+}
+.seis{
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-size: 18px;
+}
+.seis-2{
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-size: 15px;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.siete{
+    font-family: Arial, Helvetica, sans-serif, "Myriad pro";
+    font-size: 17px;
+    color: rgb(233, 233, 233);
+}
+.p{
+    text-align: center;
+}
+/*IMAGENES*/
+.img-plomero{
+    margin-top: 2rem;
+    width: 48%;
+}
+.img-plomeros{
+    width: 100%;
+    height: 60%;
+    border: solid 2px #000;
+    
+}
+/*CAJAS*/
+.div{
+    width: 30%;
+    height: 45%;
+    background: rgb(255, 255, 255);
+    float: left;
+    padding: 2.3%;
+    margin: 1%;
+}
+.caja1{
+    margin-left: 2%;
+}
+.t-caja{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 85px;
+    font-weight: bold;
+    color: rgb(236, 236, 236);
+    text-align: right;
+}
+.div-b{
+    width: 22.5%;
+    height: 70%;
+    background: rgb(255, 255, 255);
+    float: left;
+    padding: 0.5%;
+    margin: 1%;
+}
+.corre{
+    padding: 4%;
+}
+.menu-pie{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.menu-pie > li > a{
+    color: rgb(66, 66, 66);
+}
+.menu-pie > li > a:hover{
+    color: rgba(209, 23, 23, 0.925);
+}
+.menu-pie > li > a:hover, .menu-pie > li > a:focus{
+    text-decoration: none;
+}
+
+/*BOTONES*/
+.input{
+    display: inline-block;
+    font-weight: 400;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid transparent;
+    padding: 5% 15%;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 5em;
+}
+.buttom{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 5% 15%;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 5rem;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+/*RESTO*/
+.html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(86, 128, 129);
+}
+
+.navbar{
+    background-color: rgba(241, 241, 241, 0.932);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/*CABACERA*/
+.intro {
+    width: 100%;
+    height: 100%;
+}
+.intro .intro-img {
+    width: 68%;
+    float: right;
+}
+.intro .intro-text {
+    left: 0;
+    width: 50%;
+    padding: 15% 0%;
+    
+}
+/*FIN CABECERA*/
